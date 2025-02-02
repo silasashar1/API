@@ -5740,25 +5740,6 @@ paths:
                 $ref: '#/components/schemas/HTTPValidationError'
       x-stoplight:
         id: f1j2en8qa0hcm
-  /readiness-probe:
-    get:
-      tags:
-        - Public
-      summary: Startup Check
-      description: |-
-        This is a startup check endpoint. It can be used to check if the application is up and running.
-        Returns:
-        - StartupSuccessResponse: If the application is up and running
-        - StartupErrorResponse: If the application is not ready to serve requests
-      operationId: startup_check_readiness_probe_get
-      responses:
-        '200':
-          description: Successful Response
-          content:
-            application/json:
-              schema: {}
-      x-stoplight:
-        id: yyo7jfn3a99ug
   /api/v1/marketplace/asset_types/:
     get:
       tags:
@@ -14444,39 +14425,6 @@ paths:
                 $ref: '#/components/schemas/HTTPValidationError'
       x-stoplight:
         id: hc1qsq39q6r5c
-  /api/v1/ping:
-    get:
-      summary: Ping
-      operationId: ping_api_v1_ping_get
-      responses:
-        '200':
-          description: Successful Response
-          content:
-            application/json:
-              schema: {}
-      tags:
-        - agents
-      parameters:
-        - required: false
-          schema:
-            title: Access-Token
-            type: string
-          name: access-token
-          in: header
-        - required: false
-          schema:
-            title: X-Api-Key
-            type: string
-          name: x-api-key
-          in: header
-        - required: false
-          schema:
-            title: Account-Id
-            type: string
-          name: account-id
-          in: header
-      x-stoplight:
-        id: hdi83kwr6x8w7
   /api/v2/connectors/connections:
     get:
       tags:
