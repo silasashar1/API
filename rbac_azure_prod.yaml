@@ -33529,8 +33529,8 @@ components:
       x-stoplight:
         id: zs0z2r8b63l2u
   securitySchemes:
-    'Example:':
-      name: ''
+    'Example:'
+      name: 'x-api-key'
       type: apiKey
       in: query
-      description: An API key is a token that you provide when making API calls. Include the token in a cookie parameter called x-api-key
+      
