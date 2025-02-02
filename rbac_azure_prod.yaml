@@ -33530,7 +33530,7 @@ components:
         id: zs0z2r8b63l2u
   securitySchemes:
     'Example:':
-      name: apiKey
+      name: 'x-api-key: 123'
       type: apiKey
       in: query
       description: "\r\n"
