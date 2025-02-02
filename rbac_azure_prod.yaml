@@ -33530,7 +33530,7 @@ components:
         id: zs0z2r8b63l2u
   securitySchemes:
     'Example:':
-      name: 'x-api-key: 123'
+      name: ''
       type: apiKey
       in: query
       description: An API key is a token that you provide when making API calls. Include the token in a cookie parameter called x-api-key
