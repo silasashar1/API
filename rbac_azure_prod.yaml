@@ -33532,4 +33532,5 @@ components:
     'Example:':
       name: 'x-api-key: 123'
       type: apiKey
-      in: cookie
+      in: query
+      description: An API key is a token that you provide when making API calls. Include the token in a cookie parameter called x-api-key
