@@ -33533,4 +33533,4 @@ components:
       name: apiKey
       type: apiKey
       in: query
-      description: "An API key is a token that you provide when making API calls. Include the token in a header parameter called x-api-key.\r\n\r\n"
+      description: "\r\n"
