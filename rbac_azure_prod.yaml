@@ -13593,7 +13593,7 @@ paths:
   /api/v2/connectors/connections:
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Connectors
       description: List all the connectors
       operationId: list_connectors_api_v2_connectors_connections_get
@@ -13736,7 +13736,7 @@ paths:
         id: sgo53dlczhnvu
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Create Connector
       description: Creates a connector between given source and destination
       operationId: create_connector_api_v2_connectors_connections_post
@@ -13807,7 +13807,7 @@ paths:
   '/api/v2/connectors/connections/{connection_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Connector
       description: Returns connector for a given connection_id
       operationId: get_connector_api_v2_connectors_connections__connection_id__get
@@ -13884,7 +13884,7 @@ paths:
         id: fq0bg9ob1wtkn
     delete:
       tags:
-        - platform-connector
+        - connector
       summary: Delete Connector
       description: Delete the given connector
       operationId: delete_connector_api_v2_connectors_connections__connection_id__delete
@@ -13953,7 +13953,7 @@ paths:
         id: p8ffi9sq88gfb
     patch:
       tags:
-        - platform-connector
+        - connector
       summary: Update Connector
       description: Update the given connector
       operationId: update_connector_api_v2_connectors_connections__connection_id__patch
@@ -14030,7 +14030,7 @@ paths:
   '/api/v2/connectors/connections/{connection_id}/run':
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Run Connector
       description: Runs a connector between given source and destination
       operationId: run_connector_api_v2_connectors_connections__connection_id__run_post
@@ -14101,7 +14101,7 @@ paths:
   '/api/v2/connectors/connections/{connection_id}/runs/{run_id}/status':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Connector Run Status
       operationId: get_connector_run_status_api_v2_connectors_connections__connection_id__runs__run_id__status_get
       parameters:
@@ -14177,7 +14177,7 @@ paths:
   '/api/v2/connectors/connections/{connection_id}/runs/{run_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Connector Run
       description: Gets run of the given connector
       operationId: get_connector_run_api_v2_connectors_connections__connection_id__runs__run_id__get
@@ -14254,7 +14254,7 @@ paths:
   '/api/v2/connectors/connections/{connection_id}/feeds/{run_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Connector Run
       description: Gets run of the given connector
       operationId: get_connector_run_api_v2_connectors_connections__connection_id__feeds__run_id__get
@@ -14331,7 +14331,7 @@ paths:
   '/api/v2/connectors/connections/{connection_id}/runs/{run_id}/cancel':
     put:
       tags:
-        - platform-connector
+        - connector
       summary: Cancel Run
       description: Cancel specified run of the given connector
       operationId: cancel_run_api_v2_connectors_connections__connection_id__runs__run_id__cancel_put
@@ -14407,7 +14407,7 @@ paths:
   '/api/v2/connectors/connections/{connection_id}/runs':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Connector Runs
       description: Lists runs of the given connector
       operationId: list_connector_runs_api_v2_connectors_connections__connection_id__runs_get
@@ -14490,7 +14490,7 @@ paths:
   '/api/v2/connectors/connections/{connection_id}/feeds':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Connector Runs
       description: Lists runs of the given connector
       operationId: list_connector_runs_api_v2_connectors_connections__connection_id__feeds_get
@@ -14573,7 +14573,7 @@ paths:
   '/api/v2/connectors/connections/{connection_id}/latest-run':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Latest Run
       description: Gets latest run of the given connector
       operationId: get_latest_run_api_v2_connectors_connections__connection_id__latest_run_get
@@ -14643,7 +14643,7 @@ paths:
   /api/v2/connectors/sources/definitions:
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Source Definitons
       description: Lists all the supported sources
       operationId: list_source_definitons_api_v2_connectors_sources_definitions_get
@@ -14706,7 +14706,7 @@ paths:
         id: ys1yk79mzgy04
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Create Source Definition
       description: Create new source definition
       operationId: create_source_definition_api_v2_connectors_sources_definitions_post
@@ -14776,7 +14776,7 @@ paths:
   '/api/v2/connectors/sources/definitions/{source_definition_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Source Definition
       description: Returns source defintion for a given source
       operationId: get_source_definition_api_v2_connectors_sources_definitions__source_definition_id__get
@@ -14845,7 +14845,7 @@ paths:
         id: sk17zhhf9yxfo
     delete:
       tags:
-        - platform-connector
+        - connector
       summary: Delete Source Definition
       description: Deletes given source definition
       operationId: delete_source_definition_api_v2_connectors_sources_definitions__source_definition_id__delete
@@ -14914,7 +14914,7 @@ paths:
         id: f8noi0dht12pm
     patch:
       tags:
-        - platform-connector
+        - connector
       summary: Update Source Definition
       description: updates given source definition
       operationId: update_source_definition_api_v2_connectors_sources_definitions__source_definition_id__patch
@@ -14990,7 +14990,7 @@ paths:
   /api/v2/connectors/sources:
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Sources
       description: Lists all the created sources
       operationId: list_sources_api_v2_connectors_sources_get
@@ -15097,7 +15097,7 @@ paths:
         id: kf1geovjkpu7k
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Create Source
       description: creates given source
       operationId: create_source_api_v2_connectors_sources_post
@@ -15167,7 +15167,7 @@ paths:
   '/api/v2/connectors/sources/{source_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Source
       description: Get given source_id
       operationId: get_source_api_v2_connectors_sources__source_id__get
@@ -15237,7 +15237,7 @@ paths:
         id: yrwwlv9n297tn
     delete:
       tags:
-        - platform-connector
+        - connector
       summary: Delete Source
       description: Deletes given source
       operationId: delete_source_api_v2_connectors_sources__source_id__delete
@@ -15306,7 +15306,7 @@ paths:
         id: bwb32p7zws9hk
     patch:
       tags:
-        - platform-connector
+        - connector
       summary: Update Source
       description: updates given source
       operationId: update_source_api_v2_connectors_sources__source_id__patch
@@ -15382,7 +15382,7 @@ paths:
   '/api/v2/connectors/sources/{source_id}/test-connection':
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Test Source Connection
       description: Tests connection foe the given source_id
       operationId: test_source_connection_api_v2_connectors_sources__source_id__test_connection_post
@@ -15452,7 +15452,7 @@ paths:
   '/api/v2/connectors/sources/{source_id}/infer-schema':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Infer Source Schema
       description: Tests connection foe the given source_id
       operationId: infer_source_schema_api_v2_connectors_sources__source_id__infer_schema_get
@@ -15535,7 +15535,7 @@ paths:
   /api/v2/connectors/destinations/definitions:
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Destination Definitons
       description: Lists all the supported destinations
       operationId: list_destination_definitons_api_v2_connectors_destinations_definitions_get
@@ -15598,7 +15598,7 @@ paths:
         id: wxd04d2h9ic0d
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Create Destination Definition
       description: Create new destination definition
       operationId: create_destination_definition_api_v2_connectors_destinations_definitions_post
@@ -15668,7 +15668,7 @@ paths:
   '/api/v2/connectors/destinations/definitions/{destination_definition_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Destination Definition
       description: Returns destination defintion for a given destination
       operationId: get_destination_definition_api_v2_connectors_destinations_definitions__destination_definition_id__get
@@ -15737,7 +15737,7 @@ paths:
         id: 6v9vywnf1bdqn
     delete:
       tags:
-        - platform-connector
+        - connector
       summary: Delete Destination Definition
       description: Delete the given destination definition
       operationId: delete_destination_definition_api_v2_connectors_destinations_definitions__destination_definition_id__delete
@@ -15806,7 +15806,7 @@ paths:
         id: obwhzbnqu9w9g
     patch:
       tags:
-        - platform-connector
+        - connector
       summary: Update Destination Definition
       description: Update the given destination definition
       operationId: update_destination_definition_api_v2_connectors_destinations_definitions__destination_definition_id__patch
@@ -15882,7 +15882,7 @@ paths:
   /api/v2/connectors/destinations:
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Destinations
       description: Lists all the created destinations
       operationId: list_destinations_api_v2_connectors_destinations_get
@@ -15989,7 +15989,7 @@ paths:
         id: r6jweid08e4rz
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Create Destination
       description: Get given destination_id
       operationId: create_destination_api_v2_connectors_destinations_post
@@ -16059,7 +16059,7 @@ paths:
   '/api/v2/connectors/destinations/{destination_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Destination
       description: Get given destination_id
       operationId: get_destination_api_v2_connectors_destinations__destination_id__get
@@ -16129,7 +16129,7 @@ paths:
         id: yxl196expbbpa
     delete:
       tags:
-        - platform-connector
+        - connector
       summary: Delete Destination
       description: Delete the given destination
       operationId: delete_destination_api_v2_connectors_destinations__destination_id__delete
@@ -16198,7 +16198,7 @@ paths:
         id: f5i4fpe4xuo3y
     patch:
       tags:
-        - platform-connector
+        - connector
       summary: Update Destination
       description: Update the given destination
       operationId: update_destination_api_v2_connectors_destinations__destination_id__patch
@@ -16274,7 +16274,7 @@ paths:
   '/api/v2/connectors/destinations/{destination_id}/test-connection':
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Test Destination Connection
       description: Tests connection foe the given destination_id
       operationId: test_destination_connection_api_v2_connectors_destinations__destination_id__test_connection_post
@@ -16344,7 +16344,7 @@ paths:
   /api/v2/connectors/datasets/data/register/:
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Data Register
       operationId: data_register_api_v2_connectors_datasets_data_register__post
       parameters:
@@ -16413,7 +16413,7 @@ paths:
   /api/v2/connectors/feeds:
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Feeds
       description: List feeds
       operationId: list_feeds_api_v2_connectors_feeds_get
@@ -16483,7 +16483,7 @@ paths:
   '/api/v2/connectors/feeds/{feed_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Feed
       description: Get feed
       operationId: get_feed_api_v2_connectors_feeds__feed_id__get
@@ -16553,7 +16553,7 @@ paths:
   /api/v2/connectors/workspaces:
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Workspaces
       description: List workspaces
       operationId: list_workspaces_api_v2_connectors_workspaces_get
@@ -16610,7 +16610,7 @@ paths:
         id: x3neyqlj9j1rl
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Create Workspace
       description: Create workspace
       operationId: create_workspace_api_v2_connectors_workspaces_post
@@ -16674,7 +16674,7 @@ paths:
   '/api/v2/connectors/workspaces/{workspace_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Workspace By Id
       description: Get workspace by id
       operationId: get_workspace_by_id_api_v2_connectors_workspaces__workspace_id__get
@@ -16737,7 +16737,7 @@ paths:
         id: w0am10ecm0pmn
     delete:
       tags:
-        - platform-connector
+        - connector
       summary: Delete Workspace
       description: Delete workspace by id
       operationId: delete_workspace_api_v2_connectors_workspaces__workspace_id__delete
@@ -16801,7 +16801,7 @@ paths:
   '/api/v2/connectors/workspaces/name/{workspace_name}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Workspace By Name
       description: Get workspace by name
       operationId: get_workspace_by_name_api_v2_connectors_workspaces_name__workspace_name__get
@@ -16865,7 +16865,7 @@ paths:
   '/api/v2/connectors/workspaces/{workspace_id}/preset-connectors':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Preset Connnectors
       description: Returns preset connectors created on the given workspace creation
       operationId: get_preset_connnectors_api_v2_connectors_workspaces__workspace_id__preset_connectors_get
@@ -16929,7 +16929,7 @@ paths:
   /api/v2/connectors/ingress:
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Ingresses
       description: List all ingresses
       operationId: list_ingresses_api_v2_connectors_ingress_get
@@ -16993,7 +16993,7 @@ paths:
         id: s8prvorq6whqd
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Create Ingress
       description: Create a new ingress
       operationId: create_ingress_api_v2_connectors_ingress_post
@@ -17064,7 +17064,7 @@ paths:
   '/api/v2/connectors/ingress/{ingress_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Ingress
       description: Get a specific ingress
       operationId: get_ingress_api_v2_connectors_ingress__ingress_id__get
@@ -17134,7 +17134,7 @@ paths:
         id: pnvbb6p00ki0f
     delete:
       tags:
-        - platform-connector
+        - connector
       summary: Delete Ingress
       description: Delete an existing ingress
       operationId: delete_ingress_api_v2_connectors_ingress__ingress_id__delete
@@ -17204,7 +17204,7 @@ paths:
   '/api/v2/connectors/ingress/{ingress_id}/run':
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Run Ingress
       description: Run an existing ingress
       operationId: run_ingress_api_v2_connectors_ingress__ingress_id__run_post
@@ -17275,7 +17275,7 @@ paths:
   '/api/v2/connectors/ingress/{ingress_id}/run/{run_id}/status':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Ingress Run Status
       description: Get the status of a running ingress
       operationId: get_ingress_run_status_api_v2_connectors_ingress__ingress_id__run__run_id__status_get
@@ -17352,7 +17352,7 @@ paths:
   '/api/v2/connectors/ingress/{ingress_id}/runs':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Ingress Runs
       description: List all runs of an ingress
       operationId: list_ingress_runs_api_v2_connectors_ingress__ingress_id__runs_get
@@ -17423,7 +17423,7 @@ paths:
   '/api/v2/connectors/ingress/{ingress_id}/runs/{run_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Ingress Run
       description: Get a specific run of an ingress
       operationId: get_ingress_run_api_v2_connectors_ingress__ingress_id__runs__run_id__get
@@ -17500,7 +17500,7 @@ paths:
   /api/v2/connectors/egress:
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Eggresses
       description: List all egresses
       operationId: list_eggresses_api_v2_connectors_egress_get
@@ -17564,7 +17564,7 @@ paths:
         id: uvcmmgj52bz9r
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Create Egress
       description: Create a egress
       operationId: create_egress_api_v2_connectors_egress_post
@@ -17635,7 +17635,7 @@ paths:
   '/api/v2/connectors/egress/{egress_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Egress
       description: Get a egress by id
       operationId: get_egress_api_v2_connectors_egress__egress_id__get
@@ -17705,7 +17705,7 @@ paths:
         id: zzqb3lunt4e6s
     delete:
       tags:
-        - platform-connector
+        - connector
       summary: Delete Egress
       operationId: delete_egress_api_v2_connectors_egress__egress_id__delete
       parameters:
@@ -17774,7 +17774,7 @@ paths:
   '/api/v2/connectors/egress/{egress_id}/run':
     post:
       tags:
-        - platform-connector
+        - connector
       summary: Run Egress
       description: Run a egress
       operationId: run_egress_api_v2_connectors_egress__egress_id__run_post
@@ -17845,7 +17845,7 @@ paths:
   '/api/v2/connectors/egress/{egress_id}/run/{run_id}/status':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Egress Run Status
       description: Get a egress run status
       operationId: get_egress_run_status_api_v2_connectors_egress__egress_id__run__run_id__status_get
@@ -17922,7 +17922,7 @@ paths:
   '/api/v2/connectors/egress/{egress_id}/runs':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: List Egress Runs
       description: List all egress runs
       operationId: list_egress_runs_api_v2_connectors_egress__egress_id__runs_get
@@ -17993,7 +17993,7 @@ paths:
   '/api/v2/connectors/egress/{egress_id}/runs/{run_id}':
     get:
       tags:
-        - platform-connector
+        - connector
       summary: Get Egress Run
       description: Get a egress run by id
       operationId: get_egress_run_api_v2_connectors_egress__egress_id__runs__run_id__get
@@ -18084,7 +18084,7 @@ paths:
             application/json:
               schema: {}
       tags:
-        - platform-connector
+        - connector
       parameters:
         - required: false
           schema:
@@ -18109,7 +18109,7 @@ paths:
   '/api/v2/datasets/{dataset_id}/upsert':
     post:
       tags:
-        - platform-data
+        - data
       summary: Upsert Record
       description: Create data for a dataset based on the dataset_id.
       operationId: upsert_record_api_v2_datasets__dataset_id__upsert_post
@@ -18161,7 +18161,7 @@ paths:
   '/api/v2/datasets/{dataset_id}/query':
     post:
       tags:
-        - platform-data
+        - data
       summary: Query Records
       description: Get the data of a dataset based on the dataset_id.
       operationId: query_records_api_v2_datasets__dataset_id__query_post
@@ -18213,7 +18213,7 @@ paths:
   '/api/v2/datasets/{dataset_id}/data/{data_id}':
     delete:
       tags:
-        - platform-data
+        - data
       summary: Delete Record
       description: Delete data for a dataset based on the dataset_id and data_id.
       operationId: delete_record_api_v2_datasets__dataset_id__data__data_id__delete
@@ -18279,7 +18279,7 @@ paths:
             application/json:
               schema: {}
       tags:
-        - platform-data
+        - data
       parameters:
         - required: false
           schema:
@@ -18318,7 +18318,7 @@ paths:
             application/json:
               schema: {}
       tags:
-        - platform-datasets
+        - datasets
       parameters:
         - required: false
           schema:
@@ -18343,7 +18343,7 @@ paths:
   /api/v1/datasets/:
     get:
       tags:
-        - platform-datasets
+        - datasets
       summary: List Datasets
       description: |-
         This API lists the total number of datasets that have been registered in the dataset registry, with its corresponding name and identifiers.
@@ -18561,7 +18561,7 @@ paths:
         id: jes0hlyrvk325
     post:
       tags:
-        - platform-datasets
+        - datasets
       summary: Create Dataset
       description: |-
         This API is used to register metadata configurations pertaining to data in the dataset registry.
@@ -18643,7 +18643,7 @@ paths:
   '/api/v1/datasets/{dataset_id}':
     get:
       tags:
-        - platform-datasets
+        - datasets
       summary: Get Dataset
       description: |-
         This API allows the user to read metadata configuration pertaining to a dataset identifier.
@@ -18733,7 +18733,7 @@ paths:
         id: u1ylapohk2ini
     delete:
       tags:
-        - platform-datasets
+        - datasets
       summary: Delete Dataset
       description: |-
         This API allows metadata deletion for any specified dataset identifier.
@@ -18814,7 +18814,7 @@ paths:
         id: cfc6wmnjp7mgw
     patch:
       tags:
-        - platform-datasets
+        - datasets
       summary: Partial Update Dataset
       description: |-
         This API allows metadata configuration updation for any specified dataset and updates the metadata in the dataset registry.
@@ -18903,7 +18903,7 @@ paths:
   '/api/v1/datasets/{dataset_id}/profile':
     post:
       tags:
-        - platform-datasets
+        - datasets
       summary: Profile Dataset
       description: |-
         This API allows the user to profile a dataset to obtain and aggregated summary & univariate analysis of the raw data.
@@ -18981,7 +18981,7 @@ paths:
   '/api/v1/datasets/{dataset_id}/profile/status':
     get:
       tags:
-        - platform-datasets
+        - datasets
       summary: Get Dataset Profile Status
       description: |-
         This API allows the user to get the status of the profiling of a dataset.
@@ -19050,7 +19050,7 @@ paths:
   '/api/v1/datasets/{dataset_id}/sample':
     post:
       tags:
-        - platform-datasets
+        - datasets
       summary: Sample Dataset
       description: This API allows the user to sample a dataset
       operationId: sample_dataset_api_v1_datasets__dataset_id__sample_post
@@ -19128,7 +19128,7 @@ paths:
   '/api/v1/datasets/{dataset_id}/sample/status':
     get:
       tags:
-        - platform-datasets
+        - datasets
       summary: Get Sampling Status
       description: |-
         This API allows the user to get the status of the sampling of a dataset.
@@ -19197,7 +19197,7 @@ paths:
   '/api/v1/datasets/{dataset_id}/export':
     get:
       tags:
-        - platform-datasets
+        - datasets
       summary: Download Dataset
       description: |-
         This API allows the user to get the csv download link pertaining to a dataset identifier.
@@ -19266,7 +19266,7 @@ paths:
   '/api/v1/datasets/{dataset_id}/sync':
     post:
       tags:
-        - platform-datasets
+        - datasets
       summary: Synchronize Dataset
       description: API allows the user to manually sync the dataset with the data source. only polyglot datasets can be manually synced
       operationId: synchronize_dataset_api_v1_datasets__dataset_id__sync_post
@@ -19332,7 +19332,7 @@ paths:
   '/api/v1/datasets/{dataset_id}/sync/latest-status':
     get:
       tags:
-        - platform-datasets
+        - datasets
       summary: Get Latest Synchronization Status
       description: API returns the latest sync status
       operationId: get_latest_synchronization_status_api_v1_datasets__dataset_id__sync_latest_status_get
@@ -19398,7 +19398,7 @@ paths:
   '/api/v1/datasets/{dataset_id}/sync-runs':
     get:
       tags:
-        - platform-datasets
+        - datasets
       summary: List Dataset Synchronization Runs
       operationId: list_dataset_synchronization_runs_api_v1_datasets__dataset_id__sync_runs_get
       parameters:
@@ -19479,7 +19479,7 @@ paths:
   /api/v1/datasets/create_account_datasets:
     post:
       tags:
-        - platform-datasets
+        - datasets
       summary: Create Account Datasets
       description: This API is triggered for creating Account Level Datasets for a client/account upon creation.
       operationId: create_account_datasets_api_v1_datasets_create_account_datasets_post
@@ -19513,7 +19513,7 @@ paths:
   /api/v1/dataset_groups/:
     get:
       tags:
-        - platform-datasets
+        - datasets
       summary: List Dataset Groups
       operationId: list_dataset_groups_api_v1_dataset_groups__get
       parameters:
@@ -19659,7 +19659,7 @@ paths:
         id: tv6n7m00q9kmn
     post:
       tags:
-        - platform-datasets
+        - datasets
       summary: Create Dataset Group
       operationId: create_dataset_group_api_v1_dataset_groups__post
       parameters:
@@ -19723,7 +19723,7 @@ paths:
   '/api/v1/dataset_groups/{dataset_group_id}':
     get:
       tags:
-        - platform-datasets
+        - datasets
       summary: Get Dataset Group
       operationId: get_dataset_group_api_v1_dataset_groups__dataset_group_id__get
       parameters:
@@ -19805,7 +19805,7 @@ paths:
         id: 9l1anl1nzum0b
     put:
       tags:
-        - platform-datasets
+        - datasets
       summary: Update Dataset Group
       operationId: update_dataset_group_api_v1_dataset_groups__dataset_group_id__put
       parameters:
@@ -19876,7 +19876,7 @@ paths:
         id: gyohrvawtv41x
     delete:
       tags:
-        - platform-datasets
+        - datasets
       summary: Delete Dataset Group
       operationId: delete_dataset_group_api_v1_dataset_groups__dataset_group_id__delete
       parameters:
@@ -19941,7 +19941,7 @@ paths:
         id: 89kmdrsp1te5g
     patch:
       tags:
-        - platform-datasets
+        - datasets
       summary: Partial Update Dataset Group
       operationId: partial_update_dataset_group_api_v1_dataset_groups__dataset_group_id__patch
       parameters:
@@ -20013,7 +20013,7 @@ paths:
   '/api/v1/dataset_groups/{dataset_group_id}/summarize':
     post:
       tags:
-        - platform-datasets
+        - datasets
       summary: Summarize Dataset Group
       operationId: summarize_dataset_group_api_v1_dataset_groups__dataset_group_id__summarize_post
       parameters:
@@ -20085,7 +20085,7 @@ paths:
   '/api/v1/dataset_groups/{dataset_group_id}/summarize/status':
     get:
       tags:
-        - platform-datasets
+        - datasets
       summary: Get Dataset Group Summary Status
       operationId: get_dataset_group_summary_status_api_v1_dataset_groups__dataset_group_id__summarize_status_get
       parameters:
@@ -20151,7 +20151,7 @@ paths:
   /api/v1/notification/publish:
     post:
       tags:
-        - platform-notification
+        - notification
       summary: Publish
       description: Publish a message to a subscriber
       operationId: publish_api_v1_notification_publish_post
@@ -20206,7 +20206,7 @@ paths:
   /api/v1/notifications:
     get:
       tags:
-        - platform-notification
+        - notification
       summary: Get Notifications
       description: Function to get notifications
       operationId: get_notifications_api_v1_notifications_get
@@ -20298,7 +20298,7 @@ paths:
   /api/v1/notifications/acknowledge:
     post:
       tags:
-        - platform-notification
+        - notification
       summary: Acknowledge Notification
       description: Function to acknowledge a notification
       operationId: acknowledge_notification_api_v1_notifications_acknowledge_post
@@ -20360,7 +20360,7 @@ paths:
   /api/v1/subscribe:
     post:
       tags:
-        - platform-notification
+        - notification
       summary: Subscribe
       description: Function to subscribe to a topic
       operationId: subscribe_api_v1_subscribe_post
@@ -20415,7 +20415,7 @@ paths:
   /api/v1/subscriptions:
     get:
       tags:
-        - platform-notification
+        - notification
       summary: List Subscriptions
       description: Function to list all subscriptions
       operationId: list_subscriptions_api_v1_subscriptions_get
@@ -20490,7 +20490,7 @@ paths:
   /api/v1/unsubscribe:
     post:
       tags:
-        - platform-notification
+        - notification
       summary: Unsubscribe
       description: Function to unsubscribe from a topic
       operationId: unsubscribe_api_v1_unsubscribe_post
@@ -20559,7 +20559,7 @@ paths:
             application/json:
               schema: {}
       tags:
-        - platform-notification
+        - notification
       parameters:
         - required: false
           schema:
