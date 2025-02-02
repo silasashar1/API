@@ -9131,7 +9131,7 @@ paths:
   /api/v2/documents/hdfc:
     post:
       tags:
-        - idp-delivery
+        - IDP Delivery
       summary: Hdfc Sync Inference
       operationId: hdfc_sync_inference_api_v2_documents_hdfc_post
       requestBody:
@@ -9175,7 +9175,7 @@ paths:
   /api/v2/documents/async:
     post:
       tags:
-        - idp-delivery
+        - IDP Delivery
       summary: Async Document Inference
       operationId: async_document_inference_api_v2_documents_async_post
       requestBody:
@@ -9220,7 +9220,7 @@ paths:
   '/api/v2/documents/{document_id}':
     get:
       tags:
-        - idp-delivery
+        - IDP Delivery
       summary: Get Document Results
       operationId: get_document_results_api_v2_documents__document_id__get
       parameters:
@@ -9266,7 +9266,7 @@ paths:
   /api/v2/documents:
     post:
       tags:
-        - idp-delivery
+        - IDP Delivery
       summary: Sync Document Inference
       description: This API endpoint allows you to perform document inference synchronously.
       operationId: sync_document_inference_api_v2_documents_post
@@ -9313,7 +9313,7 @@ paths:
   '/api/v2/batch/{batch_id}':
     get:
       tags:
-        - idp-delivery
+        - IDP Delivery
       summary: Get Batch Details
       operationId: get_batch_details_api_v2_batch__batch_id__get
       parameters:
@@ -9378,7 +9378,7 @@ paths:
   '/api/v2/batch/{batch_id}/progress':
     get:
       tags:
-        - idp-delivery
+        - IDP Delivery
       summary: Get Batch Progress
       operationId: get_batch_progress_api_v2_batch__batch_id__progress_get
       parameters:
@@ -9425,7 +9425,7 @@ paths:
   /api/v2/batch/async/download:
     post:
       tags:
-        - idp-delivery
+        - IDP Delivery
       summary: Download Batch
       operationId: download_batch_api_v2_batch_async_download_post
       requestBody:
@@ -9471,7 +9471,7 @@ paths:
   '/api/v2/job/{job_id}':
     get:
       tags:
-        - idp-delivery
+        - IDP Delivery
       summary: Get Job
       operationId: get_job_api_v2_job__job_id__get
       parameters:
@@ -9518,7 +9518,7 @@ paths:
   '/api/v2/workflow/{workflow_id}/batch_run':
     post:
       tags:
-        - idp-delivery
+        - IDP Delivery
       summary: Workflow Batch Run
       operationId: workflow_batch_run_api_v2_workflow__workflow_id__batch_run_post
       parameters:
