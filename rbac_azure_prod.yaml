@@ -33533,4 +33533,3 @@ components:
       name: 'x-api-key: 123'
       type: apiKey
       in: query
-      description: "\r\n"
