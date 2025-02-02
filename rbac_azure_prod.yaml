@@ -4908,7 +4908,7 @@ paths:
   /api/v1/marketplace/asset_types/:
     get:
       tags:
-        - marketplace
+        - Marketplace
       summary: List Asset Types
       description: |-
         This API lists the total number of asset_types that have been registered in the asset_type registry, with its corresponding name and identifiers.
@@ -5026,7 +5026,7 @@ paths:
         id: gs7y47ua0vjt1
     post:
       tags:
-        - marketplace
+        - Marketplace
       summary: Create Asset Type
       operationId: create_asset_type_api_v1_marketplace_asset_types__post
       requestBody:
@@ -5071,7 +5071,7 @@ paths:
   '/api/v1/marketplace/asset_types/{asset_type_id}':
     get:
       tags:
-        - marketplace
+        - Marketplace
       summary: Get Asset Type
       operationId: get_asset_type_api_v1_marketplace_asset_types__asset_type_id__get
       parameters:
@@ -5117,7 +5117,7 @@ paths:
         id: k5vz1j2r4aqy1
     delete:
       tags:
-        - marketplace
+        - Marketplace
       summary: Delete Asset Type
       operationId: delete_asset_type_api_v1_marketplace_asset_types__asset_type_id__delete
       parameters:
@@ -5163,7 +5163,7 @@ paths:
         id: zknykw1mo6art
     patch:
       tags:
-        - marketplace
+        - Marketplace
       summary: Patch Asset Type
       operationId: patch_asset_type_api_v1_marketplace_asset_types__asset_type_id__patch
       parameters:
@@ -5216,7 +5216,7 @@ paths:
   /api/v1/marketplace/assets/:
     get:
       tags:
-        - marketplace
+        - Marketplace
       summary: List Assets
       description: |-
         This API lists the total number of assets that have been registered in the asset registry, with its corresponding name and identifiers.
@@ -5342,7 +5342,7 @@ paths:
         id: jcx4qme2x3u8p
     post:
       tags:
-        - marketplace
+        - Marketplace
       summary: Create Asset
       operationId: create_asset_api_v1_marketplace_assets__post
       requestBody:
@@ -5387,7 +5387,7 @@ paths:
   '/api/v1/marketplace/assets/{asset_id}':
     get:
       tags:
-        - marketplace
+        - Marketplace
       summary: Get Asset
       operationId: get_asset_api_v1_marketplace_assets__asset_id__get
       parameters:
@@ -5433,7 +5433,7 @@ paths:
         id: 91n4sr8pow9ht
     delete:
       tags:
-        - marketplace
+        - Marketplace
       summary: Delete Asset
       operationId: delete_asset_api_v1_marketplace_assets__asset_id__delete
       parameters:
@@ -5479,7 +5479,7 @@ paths:
         id: ebekzq6lzrz4u
     patch:
       tags:
-        - marketplace
+        - Marketplace
       summary: Patch Asset
       operationId: patch_asset_api_v1_marketplace_assets__asset_id__patch
       parameters:
@@ -5532,7 +5532,7 @@ paths:
   '/api/v1/marketplace/assets/{asset_id}/import':
     post:
       tags:
-        - marketplace
+        - Marketplace
       summary: Import Asset
       operationId: import_asset_api_v1_marketplace_assets__asset_id__import_post
       parameters:
@@ -5579,7 +5579,7 @@ paths:
   '/api/v1/marketplace/assets/{asset_id}/library':
     delete:
       tags:
-        - marketplace
+        - Marketplace
       summary: Remove Asset From Library
       operationId: remove_asset_from_library_api_v1_marketplace_assets__asset_id__library_delete
       parameters:
