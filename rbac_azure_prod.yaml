@@ -6283,7 +6283,7 @@ paths:
   /api/v1/doc_types/:
     get:
       tags:
-        - documents
+        - Documents
       summary: List Doc Types
       operationId: list_doc_types_api_v1_doc_types__get
       parameters:
@@ -6421,7 +6421,7 @@ paths:
         id: uwbc8jw8krpl8
     post:
       tags:
-        - documents
+        - Documents
       summary: Create Doc Type
       operationId: create_doc_type_api_v1_doc_types__post
       parameters:
@@ -6484,7 +6484,7 @@ paths:
   '/api/v1/doc_types/{doctype_id}':
     get:
       tags:
-        - documents
+        - Documents
       summary: Get Doc Type
       operationId: get_doc_type_api_v1_doc_types__doctype_id__get
       parameters:
@@ -6548,7 +6548,7 @@ paths:
         id: uwz54c6o4t0om
     put:
       tags:
-        - documents
+        - Documents
       summary: Update Doctype
       description: |-
         This API allows metadata updation for any specified doctype and re-registers the metadata in the doctype registry.
@@ -6626,7 +6626,7 @@ paths:
         id: 7t6b86pjfjcii
     delete:
       tags:
-        - documents
+        - Documents
       summary: Delete Doctype
       description: |-
         This API allows metadata deletion for any specified doctype identifier.
@@ -6697,7 +6697,7 @@ paths:
         id: xhoskl0lgl1lo
     patch:
       tags:
-        - documents
+        - Documents
       summary: Patch Doctype
       operationId: patch_doctype_api_v1_doc_types__doctype_id__patch
       parameters:
@@ -6769,7 +6769,7 @@ paths:
   '/api/v1/doc_types/{doctype_id}/export':
     get:
       tags:
-        - documents
+        - Documents
       summary: Download Doctype
       description: |-
         This API returns the dataset csv download link for the specified doctype identifier.
@@ -6839,7 +6839,7 @@ paths:
   '/api/v1/doc_types/{doctype_id}/taxonomy/template':
     get:
       tags:
-        - documents
+        - Documents
       summary: Generate Taxonomy Template
       description: |-
         This API returns a template taxonomy for the specified doctype identifier.
@@ -6909,7 +6909,7 @@ paths:
   '/api/v1/doc_types/{doctype_id}/status':
     get:
       tags:
-        - documents
+        - Documents
       summary: Get Doctype Status
       description: |-
         This API returns the status of the specified doctype.
@@ -6977,7 +6977,7 @@ paths:
   '/api/v1/doc_types/{doctype_id}/preset-documents':
     get:
       tags:
-        - documents
+        - Documents
       summary: Get Preset Documents For Doctype
       description: |-
         This API returns the list of preset documents for the given doctype identifier.
@@ -7045,7 +7045,7 @@ paths:
   '/api/v1/doc_types/{doctype_id}/clone':
     post:
       tags:
-        - documents
+        - Documents
       summary: Clone Doc Type
       operationId: clone_doc_type_api_v1_doc_types__doctype_id__clone_post
       parameters:
@@ -7110,7 +7110,7 @@ paths:
   /api/v1/documents/:
     get:
       tags:
-        - documents
+        - Documents
       summary: List Documents
       description: |-
         This API lists the total number of documents that have been registered in the document registry, with its corresponding name and identifiers.
@@ -7262,7 +7262,7 @@ paths:
         id: ew6kpif68glpj
     post:
       tags:
-        - documents
+        - Documents
       summary: Create Document
       operationId: create_document_api_v1_documents__post
       parameters:
@@ -7325,7 +7325,7 @@ paths:
   '/api/v1/documents/{document_id}':
     get:
       tags:
-        - documents
+        - Documents
       summary: Get Record
       operationId: get_record_api_v1_documents__document_id__get
       parameters:
@@ -7389,7 +7389,7 @@ paths:
         id: gmmqa0dhvii51
     put:
       tags:
-        - documents
+        - Documents
       summary: Update Record
       operationId: update_record_api_v1_documents__document_id__put
       parameters:
@@ -7468,7 +7468,7 @@ paths:
         id: 7dobfc0aqny22
     delete:
       tags:
-        - documents
+        - Documents
       summary: Delete Document
       description: |-
         This API allows metadata deletion for any specified document identifier.
@@ -7539,7 +7539,7 @@ paths:
         id: 3437spcvi9pvs
     patch:
       tags:
-        - documents
+        - Documents
       summary: Patch Document
       operationId: patch_document_api_v1_documents__document_id__patch
       parameters:
@@ -7610,7 +7610,7 @@ paths:
   '/api/v1/documents/live-ocr/{document_id}':
     post:
       tags:
-        - documents
+        - Documents
       summary: Live Ocr
       operationId: live_ocr_api_v1_documents_live_ocr__document_id__post
       parameters:
@@ -7682,7 +7682,7 @@ paths:
   '/api/v1/documents/query_document/{document_id}':
     post:
       tags:
-        - documents
+        - Documents
       summary: Query Document
       operationId: query_document_api_v1_documents_query_document__document_id__post
       parameters:
@@ -7735,7 +7735,7 @@ paths:
   /api/v1/documents/callback:
     post:
       tags:
-        - documents
+        - Documents
       summary: Document Callback
       operationId: document_callback_api_v1_documents_callback_post
       parameters:
@@ -7799,7 +7799,7 @@ paths:
   '/api/v1/documents/fetch_cache_details/{document_id}':
     get:
       tags:
-        - documents
+        - Documents
       summary: Fetch Cache Details
       operationId: fetch_cache_details_api_v1_documents_fetch_cache_details__document_id__get
       parameters:
@@ -7864,7 +7864,7 @@ paths:
   /api/v1/documents/upload_document:
     post:
       tags:
-        - documents
+        - Documents
       summary: Upload Document
       operationId: upload_document_api_v1_documents_upload_document_post
       parameters:
@@ -7929,7 +7929,7 @@ paths:
   /api/v1/matchings/:
     get:
       tags:
-        - documents
+        - Documents
       summary: List Matchings
       description: |-
         This API lists the total number of matchings that have been registered in the matching registry, with its corresponding name and identifiers.
@@ -8022,7 +8022,7 @@ paths:
         id: fp2mdexi2vikq
     post:
       tags:
-        - documents
+        - Documents
       summary: Create Matching
       operationId: create_matching_api_v1_matchings__post
       requestBody:
@@ -8067,7 +8067,7 @@ paths:
   '/api/v1/matchings/{matching_id}':
     get:
       tags:
-        - documents
+        - Documents
       summary: Get Matching
       operationId: get_matching_api_v1_matchings__matching_id__get
       parameters:
@@ -8113,7 +8113,7 @@ paths:
         id: s3bd1awm4ozli
     put:
       tags:
-        - documents
+        - Documents
       summary: Update Matching
       operationId: update_matching_api_v1_matchings__matching_id__put
       parameters:
@@ -8165,7 +8165,7 @@ paths:
         id: m6mfs9ubotbog
     delete:
       tags:
-        - documents
+        - Documents
       summary: Delete Matching
       description: |-
         This API allows metadata deletion for any specified matching identifier.
@@ -8219,7 +8219,7 @@ paths:
   /api/v1/hitlactions/:
     get:
       tags:
-        - documents
+        - Documents
       summary: List Hitl Actions
       operationId: list_hitl_actions_api_v1_hitlactions__get
       parameters:
@@ -8298,7 +8298,7 @@ paths:
   /api/v1/metrics/:
     get:
       tags:
-        - documents
+        - Documents
       summary: Metrics
       operationId: metrics_api_v1_metrics__get
       parameters:
@@ -8353,7 +8353,7 @@ paths:
   /api/v1/datatypes:
     get:
       tags:
-        - documents
+        - Documents
       summary: List Datatypes
       description: Lists all the created datatypes
       operationId: list_datatypes_api_v1_datatypes_get
@@ -8410,7 +8410,7 @@ paths:
         id: e48sag384vjcd
     post:
       tags:
-        - documents
+        - Documents
       summary: Create Datatype
       description: creates given datatype
       operationId: create_datatype_api_v1_datatypes_post
@@ -8456,7 +8456,7 @@ paths:
   '/api/v1/datatypes/{datatype_id}':
     get:
       tags:
-        - documents
+        - Documents
       summary: Get Datatype
       description: Get given datatype
       operationId: get_datatype_api_v1_datatypes__datatype_id__get
@@ -8501,7 +8501,7 @@ paths:
         id: gaowdgn5cbloc
     delete:
       tags:
-        - documents
+        - Documents
       summary: Delete Datatype
       description: Deletes given datatype
       operationId: delete_datatype_api_v1_datatypes__datatype_id__delete
@@ -8546,7 +8546,7 @@ paths:
         id: 7dhaf4ux9tv8w
     patch:
       tags:
-        - documents
+        - Documents
       summary: Update Datatype
       description: updates given datatype
       operationId: update_datatype_api_v1_datatypes__datatype_id__patch
@@ -8598,7 +8598,7 @@ paths:
   /api/v1/preset-doc-types:
     get:
       tags:
-        - documents
+        - Documents
       summary: List Preset Doc Types
       description: Lists all the created preset_doc_types
       operationId: list_preset_doc_types_api_v1_preset_doc_types_get
@@ -8655,7 +8655,7 @@ paths:
         id: sa11f1keztv9y
     post:
       tags:
-        - documents
+        - Documents
       summary: Create Preset Doc Type
       description: creates given preset_doc_type
       operationId: create_preset_doc_type_api_v1_preset_doc_types_post
@@ -8701,7 +8701,7 @@ paths:
   '/api/v1/preset-doc-types/{preset_doc_type_id}':
     get:
       tags:
-        - documents
+        - Documents
       summary: Get Preset Doc Type
       description: Get given preset_doc_type
       operationId: get_preset_doc_type_api_v1_preset_doc_types__preset_doc_type_id__get
@@ -8746,7 +8746,7 @@ paths:
         id: lbmu3jita4zl1
     delete:
       tags:
-        - documents
+        - Documents
       summary: Delete Preset Doc Type
       description: Deletes given preset_doc_type
       operationId: delete_preset_doc_type_api_v1_preset_doc_types__preset_doc_type_id__delete
@@ -8791,7 +8791,7 @@ paths:
         id: 740jki94y0g8k
     patch:
       tags:
-        - documents
+        - Documents
       summary: Update Preset Doc Type
       description: updates given preset_doc_type
       operationId: update_preset_doc_type_api_v1_preset_doc_types__preset_doc_type_id__patch
